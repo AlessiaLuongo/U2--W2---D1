@@ -194,7 +194,25 @@ iframe {
     font-weight: 700;
   }
 }
-
+@media screen and (min-width: 1200px) {
+  iframe {
+    width: 55%;
+    margin-bottom: 2em;
+    border-radius: 20px;
+  }
+  section {
+    display: inline-block;
+    position: absolute;
+    top: auto;
+    width: 40%;
+    border-radius: 5%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  article {
+    margin-bottom: 2em;
+  }
+}
 /* TABELLE */
 table {
   margin-bottom: 2em;
@@ -291,6 +309,17 @@ aside div p:last-child {
 @media screen and (min-width: 576px) {
   aside {
     font-size: 1.3em;
+  }
+}
+@media screen and (min-width: 1200px) {
+  aside {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  aside div {
+    width: 23em;
   }
 }
 

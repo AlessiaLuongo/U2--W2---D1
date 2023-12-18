@@ -119,14 +119,16 @@ section h2 {
 @media screen and (min-width: 576px) {
   #badge {
     display: inline-block;
-    width: 10%;
-    border: 3px solid #a12572;
-  }
-  #badge img {
-    width: 100%;
-    border: 3px solid #019dc3;
   }
 }
+#badge img {
+  width: 100%;
+  margin-right: 20px;
+  border: 4px solid #00a0c6;
+  outline: 4px solid #a02571;
+  padding: 3px;
+}
+
 @media screen and (min-width: 768px) {
   main {
     background-color: #fff;
@@ -196,7 +198,7 @@ iframe {
 }
 @media screen and (min-width: 1200px) {
   iframe {
-    width: 55%;
+    width: 50%;
     margin-bottom: 2em;
     border-radius: 20px;
   }
@@ -264,6 +266,19 @@ tbody tr:last-of-type {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  table {
+    margin: 0 auto;
+    margin-bottom: 5em;
+  }
+  th,
+  td {
+    padding: 15px 70px;
+    vertical-align: bottom;
+    text-align: center;
+  }
+}
+
 /* FORM */
 input {
   padding: 5px;
@@ -312,14 +327,12 @@ aside div p:last-child {
   }
 }
 @media screen and (min-width: 1200px) {
-  aside {
-    display: inline-block;
-  }
-}
-
-@media screen and (min-width: 1200px) {
   aside div {
-    width: 23em;
+    display: inline-block;
+    font-size: 0.8em;
+    width: 33%;
+    margin-left: -4px;
+    margin-right: -4px;
   }
 }
 
